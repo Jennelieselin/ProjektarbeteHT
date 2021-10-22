@@ -16,5 +16,10 @@ namespace ProjektarbeteHT
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //här har jag skrivit lite mer
+        }
     }
 }
