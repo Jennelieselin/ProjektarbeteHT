@@ -21,5 +21,10 @@ namespace ProjektarbeteHT
         {
             //här har jag skrivit lite mer
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
