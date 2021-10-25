@@ -45,6 +45,7 @@ namespace ProjektarbeteHT
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -185,11 +186,21 @@ namespace ProjektarbeteHT
             this.textBox2.Size = new System.Drawing.Size(221, 20);
             this.textBox2.TabIndex = 15;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(550, 257);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Hejhej";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -232,6 +243,7 @@ namespace ProjektarbeteHT
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label5;
     }
 }
 
